@@ -1,0 +1,26 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# Gitleaks test files
+test-secret.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Gitleaks reports
+gitleaks-report.json
+
+# Gitleaks reports
+gitleaks-report.json

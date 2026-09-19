@@ -1,0 +1,25 @@
+title = "DevSecOps Gitleaks Lab"
+
+[[rules]]
+id = "aws-access-key-id"
+description = "Detect AWS Access Key IDs"
+regex = '''AKIA[0-9A-Z]{16}'''
+keywords = ["AKIA"]
+
+[[rules]]
+id = "database-password"
+description = "Detect database passwords"
+regex = '''(?i)(DB_PASSWORD|DATABASE_PASSWORD)\s*=\s*["'][^"']+["']'''
+keywords = ["DB_PASSWORD", "DATABASE_PASSWORD"]
+
+[[rules]]
+id = "github-token"
+description = "Detect GitHub Personal Access Tokens"
+regex = '''gh[pousr]_[A-Za-z0-9_]{20,}'''
+keywords = ["ghp_", "gho_", "ghu_", "ghs_", "ghr_"]
+
+[[rules]]
+id = "stripe-api-key"
+description = "Detect Stripe API keys"
+regex = '''sk_(live|test)_[A-Za-z0-9]{16,}'''
+keywords = ["sk_live_", "sk_test_"]
