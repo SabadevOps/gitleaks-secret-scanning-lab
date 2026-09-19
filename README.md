@@ -1,7 +1,3 @@
-Absolutely. For a project you're going to share on GitHub, the README should document the **entire lab journey**, not just the final commands.
-
-I'll structure it as a proper DevSecOps project README with:
-
 * Project overview
 * Architecture diagram
 * Tools used
