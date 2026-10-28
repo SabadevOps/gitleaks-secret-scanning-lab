@@ -18,10 +18,6 @@
 * Interview concepts
 * Project structure
 
-For the visuals, I'm using **GitHub-rendered Mermaid diagrams**, so you don't need to maintain separate image files and they display directly in the README.
-
-Replace your current `README.md` with this:
-
 # 🔐 Gitleaks Secret Scanning Lab
 
 A hands-on **DevSecOps secret-scanning project** demonstrating how to detect hardcoded credentials and sensitive information using **Gitleaks**.
